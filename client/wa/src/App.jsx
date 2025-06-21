@@ -57,7 +57,7 @@ const App = () => {
           <h2 className="text-2xl font-semibold text-gray-800 mb-2">{city}</h2>
           <p className="text-lg text-black"><strong>Temperature:</strong> {weather.temperature}</p>
           <p className="text-lg text-black"><strong>Condition:</strong> {weather.condition}</p>
-          <p className="text-lg text-black"><strong>Humidity:</strong> {weather.humidity}</p>
+          <p className="text-lg text-black mt-1"><strong>Humidity:</strong> {weather.humidity}</p>
         </div>
       )}
     </div>
